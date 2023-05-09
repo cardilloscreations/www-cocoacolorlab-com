@@ -1,0 +1,17 @@
+---
+layout: contained
+title: Our Team
+description: Learn more about the owners.
+preloadItems:
+  - href: "/images/team/Lisa.600sq.webp"
+    params: as="image" type="image/webp" fetchpriority="high"
+---
+
+<section class="site-section team-section text-center" id="our-team">
+    <h2 class="visually-hidden">Our Team Intro</h2>
+    <div class="d-flex-row mb-3">
+        Learn more about the owners below.
+    </div>
+</section>
+
+{% include sections/team-members.html id="team-owners" title="Meet The Owners" members=site.team_owners %}
